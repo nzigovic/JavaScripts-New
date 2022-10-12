@@ -44,9 +44,9 @@
 
 .main-title {
     width: 80%;
-    height: 80vh;
+    /* height: 50vh; */
     display: flex;
-    border: 1px solid red;
+    border: 1px solid white;
     border-radius: 15px;
     /* background-image:url("images/pexels-carolina-castilla-arias-1716861.jpg" ) ; */
     background-position: center ;
@@ -85,17 +85,20 @@
 
 
 .button-izgled button {
-  margin: 0.8rem;
+  margin: 0.5rem;
   width: 8rem;
-    border: 0px;
-  background-color: aqua;
+    border: 1px solid red;
+  background-color: rgb(0, 0, 0);
   border-radius: 5px;
+  color: white;
 }
 
   .slika img {
-  width: 20rem;
+  width: 25rem;
+ 
   border-radius: 5px;
   animation: 0.4s;
+  border: 2px solid rgba(255, 0, 0, 0.74);
 }
 
 .slika {
